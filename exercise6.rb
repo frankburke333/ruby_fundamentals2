@@ -16,7 +16,7 @@ print_list(grocery_list)
 
 puts " "
 
-puts grocery_list.count
+puts "you have #{grocery_list.count} items on your list"
 
 puts " "
 
@@ -28,7 +28,7 @@ if grocery_list.include?("bananas") == true
 
 puts " "
 
-puts grocery_list[1]
+puts "the second item on your list is #{grocery_list[1]}"
 
 puts ""
 
